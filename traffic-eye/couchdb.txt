@@ -1,0 +1,12 @@
+
+# couch db curl doc
+https://docs.couchdb.org/en/stable/intro/curl.html
+
+# db alive
+curl http://admin:password@127.0.0.1:5984
+
+# get all documents
+curl -X GET http://admin:password@127.0.0.1:5984/seproject/_all_docs
+
+#
+SELECT objectType, createdAt, videoId, status
